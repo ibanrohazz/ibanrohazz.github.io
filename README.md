@@ -1,39 +1,47 @@
-# NuxtJs Tailwind Blog
+# Ivan Rojas - Portfolio
 
-This is a nuxtjs, Tailwind CSS blogging template. Its supported Markdown for blog
-![Drag Racing](thumbnail.png)
+## Table of contents
 
-# Examples/Demo
+- [Live Portfolio](https://ibanrohazz.github.io/)
+- [About]
+- [Development](#development)
+- [Thanks]
 
-- [Demo blog - This repo](https://nuxt-tailwind-blog.netlify.app)
+## About
 
-## Build Setup
+This portfolio is meant to highlight projects I've completed as a Software Engineer and share new projects and ideas that I'm pursing.
+
+Special Thanks to:
+
+-[AJ Barea](https://github.com/ajbarea/portfolio)
+
+-[Md Rathik](https://github.com/mdrathik/nuxtjs-tailwind-blog)
+
+For the inspiration to create this portfolio/blog.
+
+## Development
+
+### 1. Start hot-reloading development server
 
 ```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
+$ npm install                    
+// downloads and installs dependencies
+$ npm audit fix                  
+// fixes security vulnerabilities
+$ npm run dev                    
+// run development server
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+### 2. Build application for production
 
-<a href="https://www.buymeacoffee.com/mdrathik" target="_blank"
-    ><img
-      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-      alt="Buy Me A Coffee"
-      style="height: 60px !important; width: 217px !important"
-  /></a>
+```bash
+$ npm run build                  
+// optimizes and minifies files
+```
 
+### 3. Generate static application (E.g. for hosting on https://pages.github.com/)
 
-Inspired from [timlrx](https://github.com/timlrx/tailwind-nextjs-starter-blog) nextJs Blog
-## Spacial Thanks to :
-
-i made the design inspired from them.
-[ansango](https://github.com/ansango/resume) , [einargudni](https://www.einargudni.com/projects) , [leohuynh](https://www.leohuynh.dev)
-
-# Licence
-
-This project can be modified, edited and whatever you want to do. But i wish that you would love to contribute
+```bash
+$ npm run generate               
+// output directory: /docs (for GitHub Pages)
+```

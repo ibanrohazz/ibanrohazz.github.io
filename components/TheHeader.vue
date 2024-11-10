@@ -10,14 +10,24 @@
       >
         <span class="bg-grey-darkest flex items-center relative"></span>
       </label>
-
       <ul class="flex justify-center list-reset m-0 w-full md:w-auto">
-        <li v-for="item in navLinks" :key="item.path">
+        <li v-for="item in navLinks" :key="item.path || item.href">
           <NuxtLink
+            v-if="!item.external"
             :to="item.path"
             class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold text-lg md:text-2xl"
-            >{{ item.name }}</NuxtLink
           >
+            {{ item.name }}
+          </NuxtLink>
+          <a
+            v-else
+            :href="item.href"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold text-lg md:text-2xl"
+          >
+            {{ item.name }}
+          </a>
         </li>
       </ul>
     </div>
@@ -26,7 +36,6 @@
 
 <script>
 import menu from "../data/menu";
-
 export default {
   name: "TheHeader",
   data() {
