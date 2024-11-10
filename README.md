@@ -3,9 +3,8 @@
 ## Table of contents
 
 - [Live Portfolio](https://ibanrohazz.github.io/)
-- [About]
+- [About](#about)
 - [Development](#development)
-- [Thanks]
 
 ## About
 
