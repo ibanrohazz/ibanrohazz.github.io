@@ -16,7 +16,7 @@ Special Thanks to:
 
 -[Md Rathik](https://github.com/mdrathik/nuxtjs-tailwind-blog)
 
-For the inspiration to create this portfolio/blog.
+For providing the inspiration and guidance to create this portfolio.
 
 ## Development
 

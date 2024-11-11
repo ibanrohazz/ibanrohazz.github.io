@@ -1,13 +1,20 @@
-// Backend Expertise
-import NodeIcon from "assets/devicon/node.svg?component";
-import LaravelIcon from "assets/devicon/laravel.svg?component";
-// Frontend Expertise
+// Web Development Expertise
 import VueIcon from "assets/devicon/vuejs.svg?component";
 import NuxtIcon from "assets/devicon/nuxt.svg?component";
 import BootstrapIcon from "assets/devicon/bootstrap.svg?component";
 import JavascriptIcon from "assets/devicon/javascript.svg?component";
 import TailwindCssIcon from "assets/devicon/tailwindcss.svg?component";
-//Design Tools
+import NodeIcon from "assets/devicon/node.svg?component";
+import LaravelIcon from "assets/devicon/laravel.svg?component";
+// Programming Languages
+import PythonIcon from "assets/devicon/python-original.svg?component";
+import JavaIcon from "assets/devicon/java-original.svg?component";
+import CIcon from "assets/devicon/c-plain.svg?component";
+// embedded software
+import CppIcon from "assets/devicon/c.svg?component";
+import STMIcon from "assets/devicon/st-microelectronics-1.svg?component";
+import ArduinoIcon from "assets/devicon/arduino-1.svg?component";
+// Design Tools
 import VsCodeIcon from "assets/devicon/vscode.svg?component";
 // Timeline
 import Home from "assets/icons/home.svg?component";
@@ -28,7 +35,7 @@ const author = {
         // facebook: "#",
     },
     expertises: {
-        "Frontend": [
+        "Web Development": [
             {
                 name: "Bootstrap",
                 icon: BootstrapIcon,
@@ -53,9 +60,7 @@ const author = {
                 name: "Nuxt 3",
                 icon: NuxtIcon,
                 description: "",
-            }
-        ],
-        "Backend": [
+            },
             {
                 name: "Laravel",
                 icon: LaravelIcon,
@@ -67,15 +72,44 @@ const author = {
                 description: "",
             }
         ],
-        "Design Tools": [
+        "Embedded Development": [
             {
-                name: "Vs Code",
-                icon: VsCodeIcon,
+                name: "C++",
+                icon: CppIcon,
                 description: "",
             },
             {
-                name: "",
-                // icon: AdobeXdIcon,
+                name: "STM",
+                icon: STMIcon,
+                description: "",
+            },
+            {
+                name: "Arduino",
+                icon: ArduinoIcon,
+                description: "",
+            }
+        ],
+        "Programming Languages": [
+            {
+                name: "Python",
+                icon: PythonIcon,
+                description: "",
+            },
+            {
+                name: "Java",
+                icon: JavaIcon,
+                description: "",
+            },
+            {
+                name: "C",
+                icon: CIcon,
+                description: "",
+            },
+        ],
+        "Design Software": [
+            {
+                name: "Vs Code",
+                icon: VsCodeIcon,
                 description: "",
             }
         ] 
