@@ -28,7 +28,7 @@
           download="Resume.pdf"
           class="text-lg text-sky-500 hover:text-sky-600 dark:text-sky-400"
         >
-          View My Resume
+          Download My Resume
         </a>
       </div>
     </div>
