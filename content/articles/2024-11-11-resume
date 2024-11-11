@@ -1,0 +1,48 @@
+---
+title: Resume
+tags: Resume
+date: 2024-11-11
+description: Current Resume
+image: https://images.unsplash.com/photo-1648737966614-55e58b5e3caf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80
+slug: 2024-11-11-resume
+draft: true
+---
+
+# Ivan Rojas - Resume
+
+## Contact Information
+- **Email:** [your-email@example.com](mailto:your-email@example.com)
+- **LinkedIn:** [linkedin.com/in/ivanrojasrit](https://www.linkedin.com/in/ivanrojasrit)
+- **GitHub:** [github.com/ibanrohazz](https://github.com/ibanrohazz)
+
+## Summary
+A brief summary about your professional background, skills, and career goals.
+
+## Education
+### Rochester Institute of Technology
+- **Degree:** Bachelor's of Science and Master's of Science in Software Engineering
+- **Years:** 2021 - Current
+- **Location:** Rochester, NY
+
+## Experience
+### Rochester Institute of Technology
+- **Position:** Student Employee
+- **Years:** 2023 - Current
+- **Responsibilities:**
+  - Maintained a productive work environment with other student employees through effective communication and collaboration.
+
+### DoorDasher
+- **Years:** 2021 - 2024
+- **Responsibilities:**
+  - Maintained a five-star rating for over 500 deliveries and received 5 “Above and Beyond” ratings through effective and efficient customer service and communication.
+
+## Projects
+### Personal Website 2.0
+- **Description:** Second version of my personal website. Little improvements, showing projects and more.
+- **Technologies:** Gatsby, GraphQL, CSS
+- **GitHub:** [Link to repository](#)
+
+### Tailwind NuxtJs Blog Starter
+- **Description:** First version of my personal website. Nothing spectacular, just to buy domain and try things.
+- **Technologies:** Gatsby, Heroku, Bootstrap
+- **GitHub:** [Link to repository](https://github.com/mdrathik/tailwind-nuxt-blog-starter)

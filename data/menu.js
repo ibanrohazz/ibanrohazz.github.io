@@ -2,7 +2,7 @@ const menu = [
   { name: "Home", path: "/" },
   { name: "Projects", path: "/projects" },
   { name: "Blog", path: "/blog" },
-  { name: "Resume", href: "/Resume.pdf", external: true },
+  { name: "Connect", href: "https://www.linkedin.com/in/ivanrojasrit", external: true },
 ];
 
 export default menu;

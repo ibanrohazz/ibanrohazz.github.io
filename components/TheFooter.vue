@@ -17,16 +17,16 @@
           :href="author.socials.linkedin"
           ><span class="sr-only">Linkedin</span>
           <LinkedingIcon class="w-8 h-8 text-black" />
-        </a
-        ><a
+        </a>
+        <a
           class="text-sm text-gray-500 transition hover:text-gray-600"
           target="_blank"
           rel="noopener noreferrer"
           :href="`mailto:${author.email}`"
           ><span class="sr-only">mail</span>
           <MailIcon class="w-8 h-8 text-black" />
-      </a
-        ><a
+        </a>
+        <a
           class="text-sm text-gray-500 transition hover:text-gray-600"
           target="_blank"
           rel="noopener noreferrer"
@@ -41,7 +41,7 @@
           :href="author.socials.youtube"
           ><span class="sr-only">youtube</span>
           <YoutubeIcon class="w-8 h-8 text-black" />
-      </a>
+        </a>
       </div>
       <div class="flex mb-2 space-x-2 text-sm text-gray-500 dark:text-gray-400">
         <div>Copyright © {{ new Date().getFullYear() }}</div>
@@ -50,14 +50,6 @@
           >{{ author.name }}'s blog - {{ siteMetaInfo.slogan }}</a
         >
       </div>
-      <div class="mb-8 text-sm text-gray-500 dark:text-gray-400">
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/mdrathik/tailwind-nuxtjs-starter-blog"
-        ></a>
-      </div>
-      <BuyMeACoffee></BuyMeACoffee>
     </div>
   </footer>
 </template>
@@ -65,7 +57,6 @@
 <script setup>
 import siteMetaInfo from "@/data/sitemetainfo";
 import author from "@/data/author.js";
-import BuyMeACoffee from "./BuyMeACoffee.vue";
 import YoutubeIcon from "assets/icons/youtube.svg?component";
 import FacebookIcon from "assets/icons/facebook.svg?component";
 import MailIcon from "assets/icons/mail.svg?component";
