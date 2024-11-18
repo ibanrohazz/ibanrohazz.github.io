@@ -28,6 +28,7 @@
           >
             {{ item.name }}
           </a>
+          <Wip v-if="item.name === 'Projects' || item.name === 'Blog'" />
         </li>
       </ul>
     </div>
@@ -36,6 +37,7 @@
 
 <script>
 import menu from "../data/menu";
+import Wip from "@/components/Wip.vue";
 export default {
   name: "TheHeader",
   data() {

@@ -21,7 +21,7 @@ import Home from "assets/icons/home.svg?component";
 import Academy from "assets/icons/academy.svg?component";
 
 const author = {
-    author_image: "/author.png",
+    author_image: "/Author.jpg",
     name: "Ivan Rojas",
     position: "Software Engineering Student",
     email: "itr5720@g.rit.edu",

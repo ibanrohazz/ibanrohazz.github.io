@@ -9,8 +9,8 @@ const siteMetaInfo = {
   theme: "system", // system, dark or light
   // siteUrl: "https://",
   siteRepo: "#",
-  siteLogo: "../assets/author.png",
-  image: "~/assets/author.png",
+  siteLogo: "../assets/Author.jpg",
+  image: "~/assets/Author.jpg",
   socialBanner: "/static/images/twitter-card.png",
 };
 

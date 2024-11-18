@@ -5,10 +5,12 @@
       alt="Buy Me A Coffee"
       style="height: 60px !important; width: 217px !important"
   /></a>
+  <Wip />
 </template>
 
 <script>
 export default {};
+import Wip from './Wip.vue';
 </script>
 
 <style></style>

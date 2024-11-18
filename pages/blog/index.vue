@@ -8,6 +8,7 @@
       </h1>
       <p class="text-lg text-slate-700 dark:text-slate-400">
         Some projects and ideas that I am currently pursuing.
+        <Wip />
       </p>
     </header>
     <div class="space-y-16 mx-auto max-w-7xl">
@@ -37,6 +38,7 @@
 
 <script setup>
 import siteMetaInfo from "~/data/sitemetainfo.js";
+import Wip from "~/components/Wip.vue";
 const { data: articles } = await useAsyncData('home', () =>
   queryContent("/articles")
     .only([

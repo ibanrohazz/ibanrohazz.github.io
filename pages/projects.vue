@@ -7,8 +7,9 @@
         Projects
       </h1>
       <p class="text-lg leading-7 text-gray-500 dark:text-gray-400">
-        Some of the projects I've build or been a part of.
+        Some of the projects that I have developed and co-developed.
       </p>
+      <Wip />
     </div>
     <main class="relative mb-auto">
       <div class="">
@@ -35,6 +36,7 @@
 <script setup>
 import projectsData from "@/data/projects";
 import siteMetaInfo from "@/data/sitemetainfo.js";
+import Wip from "@/components/Wip.vue";
 
 useSeoMeta({
   title: `${siteMetaInfo.title} | Projects`,
@@ -44,7 +46,7 @@ useSeoMeta({
     {
       hid: "description",
       name: "description",
-      content: "Some of Projects developed by Solaiman",
+      content: "Some of Projects developed by Ivan Rojas",
     },
   ],
   link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
