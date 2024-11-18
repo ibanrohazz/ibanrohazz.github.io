@@ -1,3 +1,5 @@
+// Work in Progress tag to show that the feature is not yet complete.
+// Usage: <Wip />
 <template>
   <div class="wip">
     <span class="wip-bar">/ / /</span>

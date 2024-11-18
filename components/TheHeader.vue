@@ -37,7 +37,7 @@
 
 <script>
 import menu from "../data/menu";
-import Wip from "~/components/Wip.vue";
+import Wip from "@/components/Wip.vue";
 export default {
   name: "TheHeader",
   data() {

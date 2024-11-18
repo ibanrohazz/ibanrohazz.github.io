@@ -36,7 +36,7 @@
 <script setup>
 import projectsData from "@/data/projects";
 import siteMetaInfo from "@/data/sitemetainfo.js";
-import Wip from "~/components/Wip.vue";
+import Wip from "@/components/Wip.vue";
 
 useSeoMeta({
   title: `${siteMetaInfo.title} | Projects`,

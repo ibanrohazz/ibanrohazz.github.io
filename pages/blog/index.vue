@@ -38,7 +38,7 @@
 
 <script setup>
 import siteMetaInfo from "~/data/sitemetainfo.js";
-import Wip from "~/components/Wip.vue";
+import Wip from "@/components/Wip.vue";
 const { data: articles } = await useAsyncData('home', () =>
   queryContent("/articles")
     .only([
