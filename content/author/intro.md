@@ -1,5 +1,5 @@
 ---
-title: 👋Hello, I'm Ivan Rojas!
+title: 👋 Hello, I'm Ivan Rojas! 
 page: intro
 draft: false
 ---
