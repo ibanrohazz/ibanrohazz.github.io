@@ -25,6 +25,7 @@
               :tech1="item.tech1"
               :tech2="item.tech2"
               :tech3="item.tech3"
+              :current="item.current"
             ></project-card>
           </div>
         </div>

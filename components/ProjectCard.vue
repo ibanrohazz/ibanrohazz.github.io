@@ -33,6 +33,7 @@
         </div>
         <h2 class="text-2xl font-bold leading-8 tracking-tight mb-3">
           {{ projectTitle }}
+          <span v-if="current" class="ml-2 px-2 py-1 text-xs font-semibold text-white bg-green-500 rounded-full">Current</span>
         </h2>
         <p class="prose text-gray-500 max-w-none dark:text-gray-400 mb-3">
           {{ projectDescription }}
@@ -52,7 +53,7 @@ import FolderIcon from "assets/icons/folder.svg?component";
 import ExternalIcon from "assets/icons/external.svg?component";
 import GithubIcon from "assets/icons/github_new.svg?component";
 export default {
-  props: ["title", "description", "href", "github", "tech1", "tech2", "tech3"],
+  props: ["title", "description", "href", "github", "tech1", "tech2", "tech3", "current"],
   components: { FolderIcon, ExternalIcon, GithubIcon },
   data() {
     return {
@@ -63,6 +64,7 @@ export default {
       projectTech1: this.tech1,
       projectTech2: this.tech2,
       ProjectTech3: this.tech3,
+      current: this.current,
     };
   },
 };
