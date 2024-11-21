@@ -49,6 +49,6 @@ useSeoMeta({
       content: "Some of Projects developed by Ivan Rojas",
     },
   ],
-  link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+  link: [{ rel: "icon", type: "image/x-icon", href: "/favicon-32x32.png" }],
 });
 </script>

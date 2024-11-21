@@ -3,7 +3,7 @@ const siteMetaInfo = {
   title: "Ivan Rojas",
   description: "An Aspiring Software Engineering Student",
   // Used on Footer
-  slogan: "Let's start coding",
+  slogan: "It is what it is",
   // System Settings
   language: "en-us",
   theme: "system", // system, dark or light

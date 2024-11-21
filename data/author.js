@@ -139,7 +139,7 @@ const author = {
             icon: Home,
             title: "Born in 2003, October",
             subtitle: "Cavite, Philippines",
-            description: "I couldn't remember any productive work in that time.",
+            description: "TCOW metric starts here.",
         }
     ],
 };
