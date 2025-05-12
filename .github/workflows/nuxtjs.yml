@@ -40,9 +40,8 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: npm run generate      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        run: npm run generate     
+        uses: actions/upload-pages-artifact@v1
         with:
           path: '.output/public' # Adjusted path to match your build output
 
@@ -52,7 +51,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
+    steps:      - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v1
