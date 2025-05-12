@@ -6,28 +6,10 @@ export default defineNuxtConfig({
   components: true,
 
   content: {
-    markdown: {
-      anchorLinks: false,
-    },
+    // Minimal configuration for Nuxt Content
     highlight: {
-      theme: "github-dark",
-      langs: [
-        'json',
-        'js',
-        'ts',
-        'html',
-        'css',
-        'vue',
-        'shell',
-        'mdc',
-        'md',
-        'yaml',
-        'c',
-        'cpp',
-        'java',
-        'javascript'
-      ]
-    }
+      theme: 'github-dark',
+    },
   },
 
   compatibilityDate: '2024-11-09',
