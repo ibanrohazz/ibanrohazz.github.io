@@ -19,6 +19,7 @@ import VsCodeIcon from "assets/devicon/vscode.svg?component";
 // Timeline
 import Home from "assets/icons/home.svg?component";
 import Academy from "assets/icons/academy.svg?component";
+import Briefcase from "assets/icons/briefcase.svg?component";
 
 const author = {
     author_image: "/Author.jpg",
@@ -115,15 +116,21 @@ const author = {
         ] 
     },
     timeline: [
-        {
-            icon: Academy,
+         {
+            icon: Briefcase,
             currently: true,
+            title: "Software Engineering Co-Op (SCOOP) Intern",
+            subtitle: "May 2025 - Current",
+            description: "RIT - Department of Software Engineering",
+        },
+        {
+            icon: Briefcase,
             title: "Rochester Institute of Technology Student Employee",
-            subtitle: "2023 - Current",
+            subtitle: "August 2023 - May 2025",
             description: "Maintained a productive work environment with other students employees through effective communication and collaboration",
         },
         {
-            icon: Academy,
+            icon: Briefcase,
             title: "DoorDasher",
             subtitle: "2021 - 2024",
             description: "Maintained a five star rating for over 500 deliveries and received 5 “Above and Beyond” ratings, through effective and efficient customer service and customer communication",
@@ -137,9 +144,9 @@ const author = {
         },
         {
             icon: Home,
-            title: "Born in 2003, October",
+            title: "Birth",
             subtitle: "Cavite, Philippines",
-            description: "TCOW metric starts here.",
+            // description: "Lets do it",
         }
     ],
 };

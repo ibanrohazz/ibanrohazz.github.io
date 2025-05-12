@@ -1,0 +1,1 @@
+const t={title:"Ivan Rojas",description:"An Aspiring Software Engineering Student",slogan:"It is what it is",language:"en-us",theme:"system",siteRepo:"#",siteLogo:"../assets/Author.jpg",image:"~/assets/Author.jpg",socialBanner:"/static/images/twitter-card.png"};export{t as s};
