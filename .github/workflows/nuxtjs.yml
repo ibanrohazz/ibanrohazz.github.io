@@ -46,6 +46,11 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: '.output/public' # Adjusted path to match your build output
+      - name: Ensure upload-artifact uses v4
+        uses: actions/upload-artifact@v4
+        with:
+          name: temp-artifact
+          path: .output/public
 
   deploy:
     environment:
