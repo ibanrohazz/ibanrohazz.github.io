@@ -40,7 +40,8 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: npm run generate      - name: Upload artifact
+        run: npm run generate      
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: '.output/public' # Adjusted path to match your build output
