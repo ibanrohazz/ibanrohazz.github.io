@@ -28,7 +28,6 @@
           >
             {{ item.name }}
           </a>
-          <Wip v-if="item.name === 'Projects' || item.name === 'Blog'" />
         </li>
       </ul>
     </div>

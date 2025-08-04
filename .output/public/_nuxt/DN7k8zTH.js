@@ -1,1 +1,0 @@
-import{_ as e,c as o,o as t,a as s}from"./v_YYyXtF.js";const n={name:"Wip"},c={class:"wip"};function p(r,a,_,i,d,l){return t(),o("div",c,a[0]||(a[0]=[s("span",{class:"wip-bar"},"/ / /",-1),s("span",{class:"wip-text"},"Work in Progress",-1),s("span",{class:"wip-bar"},"\\ \\ \\",-1)]))}const f=e(n,[["render",p],["__scopeId","data-v-e657915c"]]);export{f as _};
