@@ -26,7 +26,7 @@ const author = {
     name: "Ivan Rojas",
     position: "Software Engineering Student",
     email: "itr5720@g.rit.edu",
-    location: "Rochester, NY",
+    location: "Schenectady, NY",
     github: "ibanrohazz",
     socials: {
         // twitter: "#",
@@ -121,7 +121,7 @@ const author = {
             currently: true,
             title: "Software Engineering Co-Op (SCOOP) Intern",
             subtitle: "May 2025 - Current",
-            description: "RIT - Department of Software Engineering",
+            description: "Inconsistent and slow developer workflows hampered development leading to delays in onboarding, testing, and sandbox-live version discrepancies. Collaborated with a partner to redesign processes which significantly improved test data and feature validation.<br>• Reduced onboarding friction with comprehensive test case documentation<br>• Improved mock data coverage realism for better QA accuracy<br>• Identified and patched critical issues to produce a viable application for release",
         },
         {
             icon: Briefcase,

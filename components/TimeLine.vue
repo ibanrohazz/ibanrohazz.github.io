@@ -19,8 +19,7 @@
           class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
           >{{ time.subtitle }}</time
         >
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-          {{ time.description }}
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400" v-html="time.description">
         </p>
       </li>
     </ol>
