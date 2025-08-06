@@ -1,5 +1,16 @@
 const projectsData = [
   {
+    title: "Software Engineering Co-Op Project",
+    description: `Collaborated with a partner to implement a more comprehensive test data set and introduce test cases validation for existing and future components`,
+    imgSrc: "",
+    href: "https://github.com/RIT-Software-Engineering/RIT-SE-Senior-Project/milestone/7",
+    github: "https://github.com/RIT-Software-Engineering/RIT-SE-Senior-Project", // You can update this if you have a public repo or remove if confidential
+    tech1: "Slack",
+    tech2: "GitHub",
+    tech3: "Test Case Documentation",
+    current: true,
+  },
+  {
     title: "One-Stop-Shop",
     description: `A mobile application that seeks to address the student shortcomings of Brightspace Pulse application`,
     imgSrc: "",
@@ -8,7 +19,7 @@ const projectsData = [
     tech1: "React Native",
     tech2: "Model Driven Development",
     tech3: "Android Studio",
-    current: true,
+    current: false,
   },
   // {
   //   title: "Tailwind Landing Page",
