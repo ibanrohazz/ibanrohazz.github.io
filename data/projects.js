@@ -5,11 +5,23 @@ const projectsData = [
     imgSrc: "",
     href: "https://github.com/RIT-Software-Engineering/RIT-SE-Senior-Project/milestone/7",
     github: "https://github.com/RIT-Software-Engineering/RIT-SE-Senior-Project", // You can update this if you have a public repo or remove if confidential
-    tech1: "Slack",
-    tech2: "GitHub",
+    tech1: "Github",
+    tech2: "Test Data",
     tech3: "Test Case Documentation",
     current: true,
   },
+  {
+    title: "News-AI",
+    description: `A simple news application that uses AI to summarize articles and text to speech to provide a more concise reading experience`,
+    imgSrc: "",
+    href: "#",
+    github: "https://github.com/ajbarea/news-ai",
+    tech1: "React",
+    tech2: "FastAPI",
+    tech3: "NLP",
+    current: false,
+  },
+
   {
     title: "One-Stop-Shop",
     description: `A mobile application that seeks to address the student shortcomings of Brightspace Pulse application`,
