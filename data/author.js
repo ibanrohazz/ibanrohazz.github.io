@@ -116,11 +116,17 @@ const author = {
         ] 
     },
     timeline: [
-        {
+{
             icon: Briefcase,
             currently: true,
+            title: "Seasonal Engineering Co-Op Intern",
+            subtitle: "September 2025 - Current",
+            description: "Collaborated and assisted engineering, management, and contracted staff in updating SCADA systems.  Additionally assisted in the digitization of reports and documents into a SharePoint centered system",
+        },
+        {
+            icon: Briefcase,
             title: "Software Engineering Co-Op (SCOOP) Intern",
-            subtitle: "May 2025 - Current",
+            subtitle: "May 2025 - September 2025",
             description: "Inconsistent and slow developer workflows hampered development leading to delays in onboarding, testing, and sandbox-live version discrepancies. Collaborated with a partner to redesign processes which significantly improved test data and feature validation.<br>• Reduced onboarding friction with comprehensive test case documentation<br>• Improved mock data coverage realism for better QA accuracy<br>• Identified and patched critical issues to produce a viable application for release",
         },
         {
